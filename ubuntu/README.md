@@ -175,7 +175,10 @@ maas admin boot-resources create \
     filetype='ddgz' \
     content@=custom-ubuntu-lvm.dd.gz
 ``` 
-```
+
+
+
+
 
 # Ubuntu Packer Templates for MAAS
 
