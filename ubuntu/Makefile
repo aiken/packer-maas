@@ -8,7 +8,8 @@ export PACKER_LOG
 
 SERIES ?= jammy
 ARCH ?= amd64
-URL ?= http://releases.ubuntu.com
+#URL ?= http://releases.ubuntu.com
+URL ?= https://mirrors.aliyun.com/ubuntu-releases/
 SUMS ?= SHA256SUMS
 TIMEOUT ?= 1h
 
