@@ -5,12 +5,15 @@ include ../scripts/check.mk
 PACKER ?= packer
 PACKER_LOG ?= 0
 export PACKER_LOG
-
+#jammy=ubuntu22.04
 SERIES ?= jammy
+#focal=ubuntu20.04
+#SERIES ?= jammy
 ARCH ?= amd64
 #URL ?= http://releases.ubuntu.com
+#使用国内镜像地址
 URL ?= https://mirrors.aliyun.com/ubuntu-releases/
-#使用国内镜像地址 
+ 
 SUMS ?= SHA256SUMS
 TIMEOUT ?= 1h
 
