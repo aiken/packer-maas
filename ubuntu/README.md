@@ -1,6 +1,4 @@
 
-
-```markdown
 # Ubuntu Packer 模板用于 MAAS
 
 ## 引言
