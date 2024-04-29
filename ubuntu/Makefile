@@ -10,6 +10,7 @@ SERIES ?= jammy
 ARCH ?= amd64
 #URL ?= http://releases.ubuntu.com
 URL ?= https://mirrors.aliyun.com/ubuntu-releases/
+#使用国内镜像地址 
 SUMS ?= SHA256SUMS
 TIMEOUT ?= 1h
 
